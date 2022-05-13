@@ -6,13 +6,13 @@ export const Navbar = () => {
 		<nav className="text-2xl m-5">
 			<div className="flex justify-end ">
 				<Link href="/">
-					<span className="p-3 ">Crypto List</span>
+					<a className="p-3">Crypto List</a>
 				</Link>
 				<Link href="/about">
-					<span className="p-3">About</span>
+					<a className="p-3">About</a>
 				</Link>
 				<Link href="/contact">
-					<span className="p-3">Contact</span>
+					<a className="p-3">Contact</a>
 				</Link>
 			</div>
 		</nav>
